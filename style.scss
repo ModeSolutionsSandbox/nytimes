@@ -131,6 +131,7 @@ header .nav-ul a {
   text-align: center;
   text-transform: uppercase;
   color: #333;
+  margin-left: 12px;
 }
 
 header .nav-ul a:focus,
@@ -430,4 +431,18 @@ footer a:hover {
 ul.new > li {
   list-style: disc;
   margin: 0 0 6px 35px;
+}
+.video-container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.video-vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
