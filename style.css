@@ -13,6 +13,7 @@ h2 {
 
 h3 {
   font-size: 1.75em;
+  margin: 13px;
 }
 
 h4 {
@@ -150,7 +151,9 @@ header li:first-child a {
 header li:first-child a:hover {
   color: #fff;
 }
-
+header h1{
+  margin: 13px;
+}
 /*Sections*/
 section {
   margin: 1em 0;
@@ -398,8 +401,13 @@ footer a:hover {
 
 .copy {
   font-size: 0.85em;
+  text-align: center;
 }
-
+.copy-top {
+  font-size: 0.85em;
+  text-align: center;
+  font-weight: 700;
+}
 .tcontainer {
   max-width: 940px;
 }
@@ -429,4 +437,34 @@ footer a:hover {
 ul.new > li {
   list-style: disc;
   margin: 0 0 6px 35px;
+}
+.video-container {
+  height: 170px;
+  position: relative;
+}
+
+.video-center {
+  margin: 0;
+  position: absolute;
+  top: 130%;
+  left: 43.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.tcontainer2 {
+  max-width: 1940px;
+}
+
+.tcontainer__image2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 12%;
+  margin: 12px -30px 0 0;
+}
+
+.tcontainer__text2 {
+  display: inline-block;
+  width: 80%;
+  font-size: 8px;
+  text-align: center;
 }
